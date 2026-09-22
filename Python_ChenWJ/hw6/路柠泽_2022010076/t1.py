@@ -1,0 +1,13 @@
+from tkinter import *
+root=Tk()
+root.title('Windmill')
+root.geometry('400x400')
+canvas=Canvas(root, bg='white', width=400, height=400)
+canvas.pack()
+canvas.create_arc(110, 110, 290, 290, start=30, extent=30, fill='red', outline='black', width=1)
+canvas.create_arc(110, 110, 290, 290, start=120, extent=30, fill='yellow', outline='black', width=1)
+canvas.create_arc(110, 110, 290, 290, start=210, extent=30, fill='blue', outline='black', width=1)
+canvas.create_arc(110, 110, 290, 290, start=300, extent=30, fill='green', outline='black', width=1)
+canvas.create_oval(192, 192, 208, 208, fill='black', outline='black')
+canvas.create_rectangle(196, 200, 204, 334, fill='black', outline='black')
+root.mainloop()

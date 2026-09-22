@@ -1,0 +1,3 @@
+# 关灯游戏依赖说明
+# 本项目仅使用 Python 标准库（tkinter），无需 pip install 第三方包。
+# 推荐 Python 3.8+（已在 Python 3.12 下验证）

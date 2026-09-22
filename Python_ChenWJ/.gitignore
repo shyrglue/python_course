@@ -1,0 +1,12 @@
+# 超过 GitHub 单文件 100MB 硬限制，未纳入版本控制
+FINAL/demo.mp4
+FINAL/路柠泽_2022010076.zip
+
+# macOS 压缩包解压产生的元数据文件
+._*
+
+# Python / 编辑器
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
